@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#9000695C">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Information"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:background="#6000695C"
+            android:text="Who is Pythagoras of Samos?"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="377dp"
+            android:layout_height="127dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pppp" />
+
+        <TextView
+                style="@style/styleInMainPage"
+                android:text="Pythagoras,sometimes known as Pythagoras of Samos,was an ancient Greek mathematician and philosopher,Today,many people are familiar with Pythagoras because of the famous Pythagorean Theorem,which is a mathematical formula for finding the length of the hypotenuse of a right triangle. "
+                />
+
+
+        <TextView
+
+            style="@style/myStyleTextView"
+            android:text="What is Pythagoras known for?"
+          />
+        <TextView
+            style="@style/styleInMainPage"
+
+            android:text="Today, Pythagoras is primarily known for his contributions to geometry, especially the Pythagorean Theorem. In his own lifetime, he was known as a philosopher and an eccentric mystic." />
+
+        <TextView
+            style="@style/myStyleTextView"
+            android:text="What theorem did Pythagoras of Samos prove?" />
+        <TextView
+            style="@style/styleInMainPage"
+
+            android:text="Pythagoras proved the Pythagorean Theorem, which states that the sum of the squares of the legs of a right angle triangle is equal to the square of the hypotenuse. Today, this theorem is the most enduring aspect of Pythagoras' legacy." />
+        <TextView
+            style="@style/myStyleTextView"
+            android:text="Did Pythagoras live in Samos?" />
+        <TextView
+            style="@style/styleInMainPage"
+
+            android:text="Yes, Pythagoras did live on the island of Samos as a young man. He was born there, but he traveled extensively and ended up living in southern Italy." />
+        <TextView
+            style="@style/myStyleTextView"
+            android:text="Who did Pythagoras teach?" />
+        <TextView
+            style="@style/styleInMainPage"
+
+            android:text="Pythagoras taught the Pythagoreans, who were the members of his society. He also strongly influenced Plato, a philosopher who lived after his death and who accepted many of his philosophical beliefs." />
+
+    </LinearLayout>
+</ScrollView>

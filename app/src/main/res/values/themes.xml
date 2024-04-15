@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AsmaaAssigmentOne" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+   <style name="myStyleButtons">
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:background">#4100695C</item>
+       <item name="android:textSize">16sp</item>
+       <item name="android:layout_margin">4dp</item>
+
+   </style>
+
+    <style name="styleQuiz">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">5dp</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:gravity">left
+        </item>
+        <item name="android:layout_marginLeft">15dp</item>
+
+
+    </style>
+    <style name="myStyleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="styleInMainPage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+
+        <item name="android:textStyle">italic</item>
+
+
+    </style>
+    <style name="Theme.AsmaaAssigmentOne" parent="Base.Theme.AsmaaAssigmentOne" />
+</resources>
+   
+

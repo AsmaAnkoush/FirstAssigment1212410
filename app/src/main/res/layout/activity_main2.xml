@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7000695C">
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:background="#6000695C"
+        android:text="Short Quiz about Pythagorean theorem"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/styleQuiz"
+        android:text="Please, answer all questions carefully" />
+
+    <TextView
+        style="@style/styleQuiz"
+        android:text="1-What is the formula for the Pythagorean Theorem?" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        style="@style/styleQuiz"
+        android:text="2-The Pythagorean Theorem only applies to right-angled triangles." />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/truee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/falsee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/styleQuiz"
+        android:text="3-In a right triangle, the side opposite the right angle is called the."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your answer here"
+        android:inputType="text"
+        android:paddingEnd="8dp" />
+
+    <TextView
+
+        style="@style/styleQuiz"
+
+        android:text="4-In a triangle with side lengths 3, 4, and 5, which side is the longest?"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/OptionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) 3"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/OptionB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) 4"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/OptionC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) 5"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/OptionD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Cannot be determined"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/Checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Answers"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <!-- Submit button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#7000695C"
+        android:text="Submit" />
+</LinearLayout>
