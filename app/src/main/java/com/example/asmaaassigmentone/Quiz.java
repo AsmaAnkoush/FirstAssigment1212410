@@ -97,17 +97,16 @@ public class Quiz extends AppCompatActivity {
         boolean optionDSelected = optionD.isChecked();
 
         boolean multipleChoiceAnswer = optionASelected || optionBSelected || optionCSelected || optionDSelected;
-        if (rememberCheckbox.isChecked()) {
-            if (!flag) {
-                editor.putString(SPINNER_ANSWER, selectedSpinner);
-                editor.putBoolean(TRUE_FALSE_ANSWER, trueSelected);
-                editor.putString(EDIT_TEXT_ANSWER, editTextAnswer);
-                editor.putBoolean(MULTIPLE_CHOICE_ANSWER, multipleChoiceAnswer);
-                editor.putBoolean(FLAG, true);
-                editor.apply();
-            }
-        }
+
+        // Save answers to SharedPreferences
+        editor.putString(SPINNER_ANSWER, selectedSpinner);
+        editor.putBoolean(TRUE_FALSE_ANSWER, trueSelected);
+        editor.putString(EDIT_TEXT_ANSWER, editTextAnswer);
+        editor.putBoolean(MULTIPLE_CHOICE_ANSWER, multipleChoiceAnswer);
+        editor.putBoolean(FLAG, true);
+        editor.apply();
     }
+
 
     private void checkPrefs() {
         flag = prefs.getBoolean(FLAG, false);

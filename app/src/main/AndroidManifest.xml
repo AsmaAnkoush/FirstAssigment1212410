@@ -17,7 +17,8 @@
             android:exported="false" />
         <activity
             android:name=".Theorem"
-            android:exported="false" />
+            android:exported="false"
+            android:configChanges="orientation"/>
         <activity
             android:name=".Information"
             android:exported="false" />
